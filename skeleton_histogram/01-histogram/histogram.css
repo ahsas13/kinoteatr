@@ -1,0 +1,81 @@
+.histogram{
+    width: 354px;
+    height: 185px;
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.histogram__columns {
+    display: flex;
+    align-items:flex-end;
+}
+.histogram__column {
+    background-color:var(--bluelink);
+    flex-grow: 1;
+    margin-right: 1px;
+}
+.histogram__header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.histogram__orders{
+    flex-basis: 80%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Inter',sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    color:var(--black);
+    opacity: 0.8;
+}
+.histogram__link{
+    font-family: 'Inter',sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:var(--bluelink);
+    text-decoration: none;
+}
+.histogram__quantity{
+    font-family: 'Inter',sans-serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color:var(--black);
+}
+.histogram__column_1{height:50px}
+.histogram__column_2{height:35px}
+.histogram__column_3{height:22px}
+.histogram__column_4{height:39px}
+.histogram__column_5{height:22px}
+.histogram__column_6{height:30px}
+.histogram__column_7{height:39px}
+.histogram__column_8{height:50px}
+.histogram__column_9{height:11px}
+.histogram__column_10{height:22px}
+.histogram__column_11{height:30px}
+.histogram__column_12{height:35px}
+.histogram__column_13{height:11px}
+.histogram__column_14{height:50px}
+.histogram__column_15{height:11px}
+.histogram__column_16{height:39px}
+.histogram__column_17{height:30px}
+.histogram__column_18{height:22px}
+.histogram__column_19{height:35px}
+.histogram__column_20{height:30px}
+.histogram__column_21{height:11px}
+.histogram__column_22{height:39px}
+.histogram__column_23{height:35px}
+.histogram__column_24{height:45px}
+.histogram__column_25{height:30px}
+.histogram__column_26{height:11px}
+.histogram__column_27{height:30px}
+.histogram__column_28{height:11px}
+.histogram__column_29{height:35px}
+.histogram__column_30{height:17px}

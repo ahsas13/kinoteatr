@@ -1,0 +1,68 @@
+.tabs__input,
+.tabs .tabs__content {
+    display: none;
+}
+#tab1:checked ~ .page__main .tabs__content_1,
+#tab2:checked ~ .page__main .tabs__content_2,
+#tab3:checked ~ .page__main .tabs__content_3,
+#tab4:checked ~ .page__main .tabs__content_4 {
+    display: block;
+}
+#tab1:checked ~ .tabs__nav .tabs__label[for="tab1"],
+#tab2:checked ~ .tabs__nav .tabs__label[for="tab2"],
+#tab3:checked ~ .tabs__nav .tabs__label[for="tab3"],
+#tab4:checked ~ .tabs__nav .tabs__label[for="tab4"] {
+    color: var(--active-text-color);
+    position: relative;
+}
+.tabs {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.tabs__menu {
+    display: flex;
+}
+.tabs__list{
+    margin-right: 40px;
+    list-style: none;
+}
+.tabs__list:last-child {
+    margin-right: 0;
+}
+.tabs__label{
+    cursor: pointer;
+    position: relative;
+    color: var(--grey-3);
+    padding: 0.5rem 0;
+    border-bottom: 5px solid transparent;
+}
+.tabs__label:hover,
+.tabs__label:active,
+.tabs__label:focus {
+    color: var(--black);
+}
+.tabs__nav {
+    overflow: hidden;
+}
+.tabs__menu {
+    height: 40px;
+    width: 100%;
+    overflow-x: scroll;
+}
+.tabs__menu::-webkit-scrollbar {
+    display: none;
+}
+.tabs__content {
+    padding: 1.5rem 0;
+}
+.tabs__divider {
+    position: absolute;
+    width: 100vw;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, 0);
+    height: 1px;
+    background-color: var(--grey-2);
+}

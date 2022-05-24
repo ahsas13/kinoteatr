@@ -1,0 +1,29 @@
+.image-wrapper{
+    height:14em;
+    width:25em;
+    margin:0 auto;
+    background-image:url("public/forest_400.jpg");
+    background-size:cover;
+    background-position:center;
+}
+@media screen and(min-width: 768px){
+    .image-wrapper{
+        background-image:url("public/forest_768.jpg");
+        height:432px;
+        width:768px;
+    }
+}
+@media screen and(min-width:1024px){
+    .image-wrapper{
+        background-image:url("public/forest_1024.jpg");
+        height:576px;
+        width:1024px;
+    }
+}
+@media screen and(min-width:2560px){
+    .image-wrapper{
+        background-image:url("public/forest_2560.jpg");
+        height:1440px;
+        width:2560px;
+    }
+}

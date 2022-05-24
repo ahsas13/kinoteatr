@@ -1,0 +1,38 @@
+.skeleton{
+    display:flex;
+    width:579px; height:192px;
+    border: 1px solid var(--grey-3);
+    background:var(--white);
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+.skeleton__title{display: flex;
+    flex-basis:257px;
+    flex-wrap: wrap;
+    align-self:stretch;
+}
+.skeleton__avatar{
+    align-self: center;
+}
+.skeleton__title_string1{
+    display: flex;
+    flex-basis:172px;height:20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+.skeleton__title_string2{
+    display: flex;
+    flex-basis:257px;height:20px;
+    background:blue;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+.skeleton__body_string1{
+    flex-basis:515px;height:20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+.skeleton__body_string2{
+    flex-basis:515px;height:20px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}

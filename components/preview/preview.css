@@ -1,0 +1,16 @@
+.preview{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    grid-template-rows: repeat(auto-fill, minmax(350px, auto));
+    grid-gap: 30px;
+}
+.preview__main{
+    padding: 1.5rem 0;
+}
+@media screen and (max-width: 768px){
+    .preview{
+        grid-template-rows: repeat(auto-fill, minmax(230px, auto));
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+    }
+}

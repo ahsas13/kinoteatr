@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Страница бургер-меню -->
+<html lang="ru">
+    <head>
+        <title>burger-menu</title>
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./burger-menu.css">
+        <link rel="stylesheet" href="../../components/header/header.css">
+        <link rel="stylesheet" href="../../components/page/page.css">
+        <script defer src="./burger-menu.js"></script>
+    </head>
+    <body>
+        <button class=' header__burger-button header__burger-button_open' id='burger-menu-open'>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
+        </button>
+        <div class='burger-menu' id="burger-menu">
+            <button class="header__burger-button header__burger-button_close" id="burger-menu-close">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="16" r="16" fill="#DDE2E5"/>
+                    <path d="M22 10L10 22" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 10L22 22" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>  
+            </button>
+            <div class='header__container'>
+                <div class='header__logo'>
+                    <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="1" width="30" height="30" fill="#212429"/>
+                        <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                        <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                    </svg>
+                </div>
+            </div>
+            <div class='burger-menu__body page__box'>
+                <aside class='burger_menu__sidebar'>
+                    <h4 class='burger-menu__title'>Components</h4>
+                    <nav class='burger-menu__items'>
+                        <a class='burger-menu__item' href="#">Modal</a>
+                        <a class='burger-menu__item' href="#">Tooltip</a>
+                        <a class='burger-menu__item' href="#">Avatar</a>
+                        <a class='burger-menu__item' href="#">Calendar</a>
+                        <a class='burger-menu__item' href="#">Histogram</a>
+                        <a class='burger-menu__item' href="#">Custom form elements</a>
+                      </nav>
+                </aside>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Component</title>
+  <link rel='stylesheet' href='../../assets/css/normalize.css'>
+  <link rel='stylesheet' href='../../assets/css/main.css'>
+  <link rel='stylesheet' href='../components.css'>
+  <link rel='stylesheet' href="../../09-lection7/01-burger-menu/burger-menu.css">
+  <link rel='stylesheet' href="../../05-lection3/03-calendar/calendar.css">
+  <link rel='stylesheet' href='../../components/header/header.css'>
+  <link rel='stylesheet' href='../../components/footer/footer.css'>
+  <script defer src="../../09-lection7/01-burger-menu/burger-menu.js"></script>
+</head>
+<body>
+    <div class='page'>
+        <header class='page__header header'>
+            <div class='page__box header__container'>
+                <div class='mobile-menu'>
+                    <button class=' burger-button burger-button_open' id='burger-menu-open'>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 12H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 6H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 18H21" stroke="#495057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </button>
+                    <div class='burger-menu' id="burger-menu">
+                        <button class="burger-button burger-button_close" id="burger-menu-close">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#DDE2E5"/>
+                                <path d="M22 10L10 22" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 10L22 22" stroke="#212429" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>  
+                        </button>
+                        <div class='header__container'>
+                            <div class='header__logo'>
+                                <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="1" width="30" height="30" fill="#212429"/>
+                                    <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                                    <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class='burger-menu__body page__box'>
+                            <aside class='burger_menu__sidebar'>
+                                <h4 class='burger-menu__title'>Components</h4>
+                                <nav class='burger-menu__items'>
+                                    <a class='burger-menu__item' href="modal.html">Modal</a>
+                                    <a class='burger-menu__item' href="tooltip.html">Tooltip</a>
+                                    <a class='burger-menu__item' href="avatar.html">Avatar</a>
+                                    <a class='burger-menu__item' href="calendar.html">Calendar</a>
+                                    <a class='burger-menu__item' href="histogram.html">Histogram</a>
+                                    <a class='burger-menu__item' href="formgroup.html">Custom form elements</a>
+                                  </nav>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+                <div class='header__logo'>
+                    <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="1" width="30" height="30" fill="#212429"/>
+                        <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                        <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <div class='page__main'>
+          <div class='menu'>
+            <div class='menu__title'>Components</div>
+            <ul class='menu__description'>
+              <li class='menu__item'><a href='#' class='menu__link'>Modal</a></li>
+              <li class='menu__item'><a href='#' class='menu__link'>Tooltip</a></li>
+              <li class='menu__item'><a href='#' class='menu__link'>Avatar</a></li>
+              <li class='menu__item'><a href='#' class='menu__link'>Calendar</a></li>
+              <li class='menu__item'><a href='#' class='menu__link'>Histogram</a></li>
+              <li class='menu__item'><a href='#' class='menu__link'>Custom from elements</a></li>
+              <li class='menu__item'><a href='#' class='menu__link'>Main page</a></li>
+            </ul>
+          </div>
+          <div class='component'>
+              <div class='component__title'>Calendar</div>
+              <div class='component__body'>
+                <div class='calendar'>
+                    <div class='calendar__title'>October 2019</div>
+                    <div class='calendar__wrapper'>
+                        <div class='calendar__inner'>
+                            <span class='calendar__item calendar__item_day'>Mon</span>
+                            <span class='calendar__item calendar__item_day'>Tue</span>
+                            <span class='calendar__item calendar__item_day'>Wed</span>
+                            <span class='calendar__item calendar__item_day'>Thu</span>
+                            <span class='calendar__item calendar__item_day'>Fri</span>
+                            <span class='calendar__item calendar__item_day'>Sat</span>
+                            <span class='calendar__item calendar__item_day'>Sun</span>
+                            <span class='calendar__item'></span>
+                            <span class='calendar__item'></span>
+                            <span class='calendar__item'></span>
+                            <span class='calendar__item'></span>
+                            <span class='calendar__item'>1</span>
+                            <span class='calendar__item'>2</span>
+                            <span class='calendar__item'>3</span>
+                            <span class='calendar__item'>4</span>
+                            <span class='calendar__item'>5</span>
+                            <span class='calendar__item'>6</span>
+                            <span class='calendar__item'>7</span>
+                            <span class='calendar__item'>8</span>
+                            <span class='calendar__item'>9</span>
+                            <span class='calendar__item'>10</span>
+                            <span class='calendar__item'>11</span>
+                            <span class='calendar__item'>12</span>
+                            <span class='calendar__item'>13</span>
+                            <span class='calendar__item'>14</span>
+                            <span class='calendar__item'>15</span>
+                            <span class='calendar__item'>16</span>
+                            <span class='calendar__item'>17</span>
+                            <span class='calendar__item calendar__item_active'>18</span>
+                            <span class='calendar__item calemdar__item_between-active'>19</span>
+                            <span class='calendar__item calemdar__item_between-active'>20</span>
+                            <span class='calendar__item calemdar__item_between-active'>21</span>
+                            <span class='calendar__item calemdar__item_between-active'>22</span>
+                            <span class='calendar__item calendar__item_active'>23</span>
+                            <span class='calendar__item'>24</span>
+                            <span class='calendar__item'>25</span>
+                            <span class='calendar__item'>26</span>
+                            <span class='calendar__item'>27</span>
+                            <span class='calendar__item'>28</span>
+                            <span class='calendar__item'>29</span>
+                            <span class='calendar__item'>30</span>
+                            <span class='calendar__item'>31</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class='page__footer'>
+          Reusable component Library
+        </div>
+      </div>
+</body>
+</html>

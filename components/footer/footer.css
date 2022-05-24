@@ -1,0 +1,23 @@
+.footer {
+    height: 384px;
+}
+.footer__title {
+    font-size: 38px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+.footer__text{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.footer__box{
+    margin:0 auto;
+    max-width:640px;
+}

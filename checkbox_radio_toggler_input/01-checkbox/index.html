@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Страница чекбокса -->
+<html lang="ru">
+    <head>
+        <meta charset='UTF-8'>
+        <title>Checkbox</title>
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./checkbox.css">
+        <link rel='import' href='../../components/svg/svg.html'>
+    </head>
+    <body>
+    <label class='checkbox'>
+        <input type='checkbox' class='checkbox__input' name='checkbox-name' value='1'>
+        <span class="checkbox__state">
+            <span class="checkbox__control">
+                <svg class='checkbox__icon' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span class="checkbox__legend">
+                Default
+            </span>
+        </span>
+    </label>
+    <label class='checkbox'>
+        <input type='checkbox' class='checkbox__input' name='checkbox-name' value='2'>
+        <span class="checkbox__state">
+            <span class="checkbox__control">
+                <svg class='checkbox__icon' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span class="checkbox__legend">
+                Default
+            </span>
+        </span>
+    </label>
+    <label class='checkbox'>
+        <input disabled type='checkbox' class='checkbox__input' name='checkbox-name' value='3'>
+        <span class="checkbox__state">
+            <span class="checkbox__control">
+                <svg class='checkbox__icon' width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </span>
+            <span class="checkbox__legend">
+                Disabled
+            </span>
+        </span>
+    </label>
+    </body>
+</html>

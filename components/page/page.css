@@ -1,0 +1,13 @@
+.page__box {
+    max-width: 1110px;
+    width:100%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px){
+    .page__box {
+        padding:0 16px;
+    }
+}
+.page__main {
+    background: var(--page-background);
+}
