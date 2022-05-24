@@ -1,1 +1,1 @@
-"# Kinoteatr" 
+"Kinoteatr" 
