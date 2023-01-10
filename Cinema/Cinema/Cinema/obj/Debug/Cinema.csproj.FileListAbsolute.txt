@@ -1,0 +1,64 @@
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.csproj.AssemblyReference.cache
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.AdminForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.AuthForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.MainForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.HallStatusForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.OrdersForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Natasha.Properties.Resources.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.SessionsForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.SettingsForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.UserForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.UsersForm.resources
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.csproj.GenerateResource.cache
+F:\ПИС\Cinema\Natasha\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+F:\ПИС\Cinema\Natasha\obj\Debug\Natasha.exe
+F:\ПИС\Cinema\Natasha\obj\Debug\Natasha.pdb
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.csproj.AssemblyReference.cache
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.AdminForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.AuthForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.MainForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.HallStatusForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.OrdersForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.SessionsForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.SettingsForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.UserForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.UsersForm.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.csproj.GenerateResource.cache
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Natasha.Properties.Resources.resources
+F:\ПИС\Новая папка (2)\Cinema\Natasha\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.AdminForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.AuthForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.HallStatusForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.OrdersForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.SessionsForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.SettingsForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.UserForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.UsersForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.csproj.GenerateResource.cache
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+F:\Cinema\Cinema\Cinema\bin\Debug\kino.mdb
+F:\Cinema\Cinema\Cinema\bin\Debug\Cinema.exe.config
+F:\Cinema\Cinema\Cinema\bin\Debug\Cinema.exe
+F:\Cinema\Cinema\Cinema\bin\Debug\Cinema.pdb
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.MainForm.resources
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.exe
+F:\Cinema\Cinema\Cinema\obj\Debug\Cinema.pdb
+E:\кипу\ПИС\Cinema\Cinema\Cinema\bin\Debug\kino.mdb
+E:\кипу\ПИС\Cinema\Cinema\Cinema\bin\Debug\Cinema.exe.config
+E:\кипу\ПИС\Cinema\Cinema\Cinema\bin\Debug\Cinema.exe
+E:\кипу\ПИС\Cinema\Cinema\Cinema\bin\Debug\Cinema.pdb
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.AdminForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.AuthForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.HallStatusForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.MainForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.OrdersForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.SessionsForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.SettingsForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.UserForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.UsersForm.resources
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.csproj.GenerateResource.cache
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.exe
+E:\кипу\ПИС\Cinema\Cinema\Cinema\obj\Debug\Cinema.pdb
